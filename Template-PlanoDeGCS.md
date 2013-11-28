@@ -1,11 +1,9 @@
-GCS_FA7-KRV
+<Nome do Projeto>
 =================
 Plano de Gerenciamento de Configuração
 ======================================
-Versão 1.0
+Versão &lt;1.0&gt;
 ------------------
-
-_Um teste
 
 _[Observação: O template a seguir é fornecido para uso com o Rational Unified Process (RUP).  O texto exibido entre colchetes e em itálico foi incluído para orientar o autor e deve ser excluído antes da publicação do documento._
 
@@ -14,10 +12,10 @@ _Este documento utiliza a formatação da linguagem [Markdown] (http://daringfir
 Histórico de Versões
 --------------------
 
-|Data                |Versão       |Descrição               |Autor          |Email          |
-|--------------------|-------------|------------------------|---------------|---------------|
-| 26/11/2013 | 1.0 | Versão inicial | Kalebe Barros| barokasorra@gmail.com |
-|_&lt;dd/mm/aaaa&gt;_|_&lt;1.1&gt;_|_&lt;Outra versão&gt;_  |_&lt;autor&gt;_|_&lt;autor&gt;_|
+|Data                |Versão       |Descrição               |Autor          |
+|--------------------|-------------|------------------------|---------------|
+|_&lt;dd/mm/aaaa&gt;_|_&lt;1.0&gt;_|_&lt;Versão inicial&gt;_|_&lt;autor&gt;_|
+|_&lt;dd/mm/aaaa&gt;_|_&lt;1.1&gt;_|_&lt;Outra versão&gt;_  |_&lt;autor&gt;_|
 
 
 
@@ -30,9 +28,7 @@ Plano de Gerenciamento de Configuração.]_
 
 1.1 Finalidade
 ---------------
-A finalidade deste documento é criar um padrão a ser seguido por todos os membros da equipe com o intuito de garantir o maior controle do produto no decorrer do projeto. 
-Para que isso aconteça serão detalhados os recursos necessários (equipes, ferramentas e computadores), as responsabilidades atribuídas e o cronograma de atividades.
-
+_[Especifique a finalidade deste Plano de Gerenciamento de Configuração.]_
 
 1.2 Escopo
 ----------
@@ -40,10 +36,6 @@ _[Uma breve descrição do escopo deste Plano de Gerenciamento de Configuração
 
 1.3 Definições, Acrônimos e Abreviações
 ---------------------------------------
-|TERMO               |SIGNIFICADO       |
-|--------------------|-------------|
-| Baseline | Conjunto de itens de configuração que conseguiram um estado comprovado de estabilidade. |
-|_&lt;TERMOS;_|_&lt;Significados&gt;_|
 _[Esta subseção apresenta as definições de todos os termos, acrônimos e abreviações necessários para a correta interpretação do Plano de Gerenciamento de Configuração.  Essas informações podem ser fornecidas mediante referência ao Glossário do projeto.]_
 
 1.4 Referências
