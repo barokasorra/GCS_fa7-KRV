@@ -14,7 +14,7 @@ _Este documento utiliza a formatação da linguagem [Markdown] (http://daringfir
 Histórico de Versões
 --------------------
 
-|Data                |Versão       |Descrição               |Autor          |Email          |
+|Data 25/11/2013       |Versão 1.0       |Descrição               |Autor Ricardo César |Email kuriozzu@hotmail.com         |
 |--------------------|-------------|------------------------|---------------|---------------|
 | 26/11/2013 | 1.0 | Versão inicial | Kalebe Barros| barokasorra@gmail.com |
 |_&lt;dd/mm/aaaa&gt;_|_&lt;1.1&gt;_|_&lt;Outra versão&gt;_  |_&lt;autor&gt;_|_&lt;autor&gt;_|
@@ -24,35 +24,31 @@ Histórico de Versões
 1. Introdução
 ==============
 
-_[A introdução do Plano de Gerenciamento de Configuração  oferece uma visão geral de todo o documento. 
-Ela inclui a finalidade, o escopo, as definições, os acrônimos, as abreviações, as referências e uma visão geral deste
-Plano de Gerenciamento de Configuração.]_
 
 1.1 Finalidade
 ---------------
-A finalidade deste documento é criar um padrão a ser seguido por todos os membros da equipe com o intuito de garantir o maior controle do produto no decorrer do projeto. 
-Para que isso aconteça serão detalhados os recursos necessários (equipes, ferramentas e computadores), as responsabilidades atribuídas e o cronograma de atividades.
+Documentar o Sistema KRV e controlar as mudanças nas versões do mesmo. Usar o GIT para fazer os commits, branchs e merges, facilitando assim o controle das versões e o Gerenciamento das configurações. Manter a equipe informada de todas as mudanças que foram feitas evitando assim problemas futuros.
 
 
 1.2 Escopo
 ----------
-_[Uma breve descrição do escopo deste Plano de Gerenciamento de Configuração; o modelo ao qual ele está associado e tudo o que é afetado ou influenciado por este documento.]_
+Controlar as versões do sistema, fazer os commits, branchs e merges para melhor entendimento por parte dos analista de sistemas, gerentes de projeto e analista de requisitos.Manter clareza nas informações sobre as alterações feitas. Objetividade nas alterações das vesões do sistema . 
 
 1.3 Definições, Acrônimos e Abreviações
 ---------------------------------------
 |TERMO               |SIGNIFICADO       |
 |--------------------|-------------|
 | Baseline | Conjunto de itens de configuração que conseguiram um estado comprovado de estabilidade. |
-|_&lt;TERMOS;_|_&lt;Significados&gt;_|
-_[Esta subseção apresenta as definições de todos os termos, acrônimos e abreviações necessários para a correta interpretação do Plano de Gerenciamento de Configuração.  Essas informações podem ser fornecidas mediante referência ao Glossário do projeto.]_
+|SKRV |_Sistema Kalebe Ricardo Virgilio_|
+
 
 1.4 Referências
 ---------------
-_[Esta subseção apresenta uma lista completa de todos os documentos mencionados no Plano de Gerenciamento de Configuração. Identifique os documentos por título, número de relatório (se aplicável), data e organização responsável pela publicação. Especifique as fontes a partir das quais as referências podem ser obtidas. Essas informações podem ser fornecidas por um anexo ou outro documento.]_
+Baseada na Análise de Requisitos realizada na elaboração do Sistema KRV em 28 de novembro de 2012 entitulada Análise de Requisitos de SKRV, feita pelo Analista de Requisitos Rodrigues Ximenes Barros.
 
 1.5 Visão Geral
 ---------------
-_[Esta subseção descreve o conteúdo restante do Plano de Gerenciamento de Configuração e explica como o documento está organizado.]_
+Este documento foi criado para melhor orientar os envolvidos nas mudanças e versões do Sistema KRV, como Analista de Requisitos, Gerente de Projeto e Analistas de Sistemas.
 
 
 
