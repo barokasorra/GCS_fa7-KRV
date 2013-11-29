@@ -18,6 +18,7 @@ Histórico de Versões
 |:------------------:|:-----------:|:----------------------:|:-----------:|
 | 26/11/2013         | 1.0 | Versão inicial | Kalebe Barros|
 | 28/11/2013         | 1.1 | GCS | Kalebe Barros|
+| 28/11/2013         | 1.2 | Treinamentos | Kalebe Barros|
 |_&lt;dd/mm/aaaa&gt;_|_&lt;1.1&gt;_|_&lt;Outra versão&gt;_  |_&lt;autor&gt;_|_&lt;autor&gt;_|
 
 
@@ -63,37 +64,41 @@ _[Esta subseção descreve o conteúdo restante do Plano de Gerenciamento de Con
 2.1 Organização, Responsabilidades e Interfaces
 ------------------------------------------------
 |PAPÉIS        |EQUIPE    |RESPOSABILIDADE       |
-|:------------:|:-----------:|:------------:|
-|Gerente de Configuração| Virgilio Ximenes |Estabelecer Políticas de GC,    Escrever Plano de GC,  Configurar Ambiente de GC,  Criar Espaços de Trabalho de Integração,  Criar Baselines,  Promover Baselines|
-|CCM| Kalebe Barros  Ricardo César |Estabelecer Processo de Controle de Mudanças,  Revisar Solicitação de Mudança|
-|Desenvolvedor|Ricardo César  Virgilio Ximenes|Seguir os padrões e procedimentos definidos no Plano de Gerência de Configuração|
-**Tabela 01 - Responsavéis e Resposabilidades**
+|:------------:|:-----------:|------------|
+|Gerente de Configuração| Virgilio Ximenes |Estabelecer Políticas de GC</br>   Escrever Plano de GC</br>  Configurar Ambiente de GC</br>  Criar Espaços de Trabalho de Integração</br>  Criar Baselines</br>  Promover Baselines|
+|CCM| Kalebe Barros  Ricardo César |Estabelecer Processo de Controle de Mudanças</br>  Revisar Solicitação de Mudança|
+|Desenvolvedor|Ricardo César</br >Virgilio Ximenes|Seguir os padrões e procedimentos definidos no Plano de Gerência de Configuração|
+<center><small> **Tabela 01 - Responsavéis e Resposabilidades**</small></center>
 
 _[Descreva quem será o responsável pela execução das diversas atividades de Gerenciamento de Configuração (CM) descritas no Processo de CM.]_
 
 2.2 Ferramentas, Ambiente e Infra-estrutura
 -------------------------------------------
-##### 2.2.1	As ferramentas a serem utilizadas para a gerência de configuração
+##### 2.2.1	Ferramentas a serem utilizadas para a gerência de configuração
+
 |Ferramenta	     |Tipo	    |Descrição	    |Versão    |
-|----------------|----------|---------------|----------|
-|GIT	         |Controle de Versão|Sistema de controle de versão. Localizado através do endereço: http://git-scm.com/|	1.4.6|
-|GitHub	         |Repositório	OnLine| Projeto on-line de hospedagem com Git. Inclui navegador de código-fonte, a edição in-line, wikis.Localizado através do Endereço: “https://github.com/” ||
-|MdCharm|Editor MarkDown|É um editor de wiki. Atualmente ele suporta MarkDown e MultiMarkDown.Localizado através do Endereço: “http://www.mdcharm.com/”|1.1.6|
+|----------------|----------|---------------|:----------:|
+|GIT	         |Controle de Versão|Sistema de controle de versão. </br>Localizado através do endereço: http://git-scm.com/|	1.8.4|
+|GitHub	         |Repositório	OnLine| Projeto on-line de hospedagem com Git. Inclui navegador de código-fonte, edição in-line, wikis.</br>Localizado através do Endereço: “https://github.com/” |***|
+|MdCharm|Editor MarkDown|É um editor de wiki. Atualmente ele suporta MarkDown e MultiMarkDown.</br>Localizado através do Endereço: “http://www.mdcharm.com/”|1.1.6|
+<center><small>**Tabela 02 - Ferramentas e Ambientes**</small></center>
 
 ##### 2.2.2	Configuração do software – Ferramentas do ambiente de desenvolvimento
+
 |Tipo   |Ferramenta	    |Versão    |
-|----------------|----------|---------------|
-|Sistema Operacional (Desenvolvimento)|	Windows XP Professional	SP2|
+|----------------|----------|:---------------:|
+|Sistema Operacional (Desenvolvimento)|	Windows 7 Ultimate	|SP1|
 |Cronograma	|Microsoft Office Project|2013|
 |Planilha|Microsoft Office Excel|2013|
 |Editor de Texto|Microsoft Office Word|2013
-|Controle de Versão|GIT|| 
-|Plataforma de Desenvolvimento|Ferramenta: Eclipse   Linguagem: JAVA |	|
-|Banco de Dados|Mysql	5.0||
-|Maquina virtual|	VMWare|	1.0.4|
+|Controle de Versão|GIT|1.8.4| 
+|Plataforma de Desenvolvimento|Ferramenta: Eclipse Standard</br><br>Linguagem: JAVA SE |4.3.1</br><br>7u45	|
+|Banco de Dados|Mysql	|6.0|
+|Maquina virtual|	VirtualBox |	4.3.2|
 |Comunicação|Telefone	/ Skype / Hangout|
 
-##### 2.2.3 Estrutura de Ambiente
+<center><small>**Tabela 03 - Configuração do Software**</small></center>
+
 
 _[Descreva o ambiente de computação e as ferramentas de software a serem utilizadas para desempenhar as funções de CM em todo o ciclo de vida do projeto ou produto._
 _Descreva as ferramentas e os procedimentos necessários utilizados para o controle de versão dos itens de configuração gerados no ciclo de vida do projeto ou produto._
@@ -151,6 +156,9 @@ _[Descreva os padrões e procedimentos que devem ser seguidos no projeto. Crie s
 
 5. Treinamento e Recursos
 =========================
+|Treinamento|Objetivo|Público Alvo|
+|:---:|---|:---:|
+|Repositório|Ensinar como acessar o repositório através do _GIT_,</br> Como dar os comandos principais do repositório,  como incluir, atualizar e excluir itens dentro do repositório, e, </br>Como colocar os arquivos no repositório online_(GitHub)_.|Toda equipe|
 _[Descreva as ferramentas de software, o pessoal e o treinamento necessários para implementar as atividades de CM especificadas.]_
 
 
