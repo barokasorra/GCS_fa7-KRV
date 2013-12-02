@@ -111,7 +111,13 @@ _[Descreva a participação e os procedimentos para processar solicitações e a
 
 4. Padrões e Procedimentos
 ==========================
-_[Descreva os padrões e procedimentos que devem ser seguidos no projeto. Crie subseções se achar necessário, para organizá-los melhor.]_
+* Toda mudança tem de ser comitada com mensagem de pelo menos 70 caracteres.
+* Cada equipe deve ter seu próprio branch.
+* As alterações só poderão ser enviadas para o master após a validação do cliente.
+* Toda mensagem de commit deve informar qual a _issue_ relacionadas.
+* O Merge deverá executado com o auxílio de todos os coordenadores das equipes.
+* Cada membro da equipe deve criar um _fork_ do branch da equipe.
+
 
 
 
