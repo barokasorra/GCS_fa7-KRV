@@ -15,8 +15,8 @@ Histórico de Versões
 |Data                |Versão       |Descrição               |Autor          |Email          |
 |--------------------|-------------|------------------------|---------------|---------------|
 | 26/11/2013 | 1.0 | Versão inicial | Kalebe Barros| barokasorra@gmail.com |
+| 06/12/2013 | 1.1 | Finalização do ponto 3 e criação do pont 6  | Virgilio Ximenes | virgiliorximenes@gmail.com |
 |_&lt;dd/mm/aaaa&gt;_|_&lt;1.1&gt;_|_&lt;Outra versão&gt;_  |_&lt;autor&gt;_|_&lt;autor&gt;_|
-
 
 
 1. Introdução
@@ -111,16 +111,16 @@ Faz-se necessário que as letras que compoẽm o identificador esteja em caixa a
 
 | Item (ou Tipo de Item)     | Responsável na equipe | Inclusão em Baseline |
 |----------------------------|-----------------------|----------------------|
-| Documento de requisitos    | Roberto Rodrigues     |_&lt;momento a partir do qual o conjunto de artefatos será incluído em baseline&gt;_|
-| Código fonte               | Virgulino Ximenes     |_&lt;momento a partir do qual o conjunto de artefatos será incluído em baseline&gt;_|
-| Plano de testes            | Kallel Barros         |_&lt;momento a partir do qual o conjunto de artefatos será incluído em baseline&gt;_|
-| Manuais de instalação e uso| Ricardo Barros        |_&lt;momento a partir do qual o conjunto de artefatos será incluído em baseline&gt;_|
-|Descrição do banco de dados | Virgilio  Rodrigues   |_&lt;momento a partir do qual o conjunto de artefatos será incluído em baseline&gt;_|
-| Programa Executável        | Kalebe Ximenes        |_&lt;momento a partir do qual o conjunto de artefatos será incluído em baseline&gt;_|
-| Cronograma                 | Ricardo Rodrigues     |_&lt;momento a partir do qual o conjunto de artefatos será incluído em baseline&gt;_|
-| Relatório de testes        | Virgilio Ximenes      |_&lt;momento a partir do qual o conjunto de artefatos será incluído em baseline&gt;_|
-|Plano de projeto do software| Kalebe Barros         |_&lt;momento a partir do qual o conjunto de artefatos será incluído em baseline&gt;_|
-|Termo de abertura do projeto| Joaquim Oliveira      |_&lt;momento a partir do qual o conjunto de artefatos será incluído em baseline&gt;_|
+| Documento de requisitos    | Roberto Rodrigues     | Quando o cliente validar o documento |
+| Código fonte               | Virgulino Ximenes     | Quando o cliente homologar a implementação |
+| Plano de testes            | Kallel Barros         | Quando o gerente de testes |
+| Manuais de instalação e uso | Ricardo Barros        | Quando o gerente suporte validar |
+| Descrição do banco de dados | Virgilio Rodrigues   | |
+| Programa Executável        | Kalebe Ximenes        | |
+| Cronograma                 | Ricardo Rodrigues     | Quando o cliente homologar |
+| Relatório de testes        | Virgilio Ximenes      | Após a execução da _build_ |
+|Plano de projeto do software| Kalebe Barros         | |
+|Termo de abertura do projeto| Joaquim Oliveira      | Após o cliente assinar |
 
 ### 3.1.3 Baselines do Projeto
 
@@ -189,9 +189,24 @@ Estas informações são necessárias a criação da CR. Abaixo é apresentado c
 | Re-aberta | A CR foi julgada incompleta pelo criador. | Igual ao estado _Novo_ |
 
 ### 3.2.2 Comitê de Controle de Mudança (CCB)
-_[Descreva a participação e os procedimentos para processar solicitações e aprovações de mudança a serem seguidos pelo CCB. Informe quem são os membros do CCB e suas responsabilidades.]_
 
+O CCB será composto de um gerente de cada time, que são:
 
+* Desenvolvimento: Analisar o impacto da CR;
+* Teste: Analisar os testes que necessitarão ser alterados para abranger a CR, avaliando os riscos e como mitigá-los;
+* Suporte Técnico: Analisar os manuais que necessitarão ser alterados para abranger a CR;
+* Financeiro: Analisar a viabilidade financeira;
+* Comercial: Analisar o alinhamento quanto ao negócio;
+* Gerência de projetos: Analisar quanto ao escopo do projeto.
+
+A análise irá iniciar com o relatório da análise de impacto realizado pela equipe de desenvolvimento, apresentando no relatório a quantidade de horas necessárias para realizar a alteração. Somente então a equipe de teste irá avaliar o esforço necessário para criar ou alterar os testes, bem como o suporte analisará os manuais que necessitarão de criação ou alteração. Com base nessas informações, o financeiro irá calcular os custos envolvidos. De posse dos custos, o comercial poderá avaliar quanto ao alinhamento da CR com o negócio, atribuindo a priorização da CR, para, finalmente, a gerência de projeto poder analisar o prazo para a entrega, quando a CR integrará o escopo do projeto. Caso a maioria dos membros do CCB aprovem a CR, o formulário deverá ser preenchido.
+
+| ID  | Atividade | Feito? |
+|-----|-----------|--------|
+|  1. | Obtidas alterações solicitadas e correções de bugs propostas para inclusão na _release_. | |
+|  2. | Identificadas implementações, testes, integrações e prazo estimado. | |
+|  3. | Avaliadas as funcionalidades, o orçamento, o cronograma, os custos, os riscos. | |
+|  4. | Se aprovada, verificados se serão necessários novos componentes ou alterar os existentes, documentos do projeto e outros artefatos dentro da gerência de configuração. | |
 
 4. Padrões e Procedimentos
 ==========================
@@ -207,4 +222,14 @@ _[Descreva as ferramentas de software, o pessoal e o treinamento necessários pa
 
 6. Auditorias de Configuração
 =============================
-_[Descreva o cronograma das auditorias de configuração e o que será verificado. Informe também como serão reportados os problemas encontrados e onde sera feito o acompanhamento dos itens corretivos.]_
+
+A auditoria será realizada sempre antes da liberação da _baseline_ para o cliente, sendo responsável por verificar se o que está sendo liberado para o cliente está completo, no que tange as cláusulas contratuais, e correta, atendendo ao requisitos estabelecidos.
+A auditoria será responsável por verificar se os componentes estão presentes nas versões especificadas e confirmar a presença de todos os artefatos necessários.
+Caso, durante a auditoria, alguma falha seja encontrada devem ser executados os seguintes passos:
+<ol>
+<li>Identificiação do problema, apresentando a discrepância nos artefatos envolvidos.</li>
+<li>Identificar ação corretiva junto aos membros do CCB.</li>
+<li>Se for detectado a ausência de algum artefato, deve ser comunicado ao gerente de configuração para incluí-lo no gerenciamento de configuração.</li>
+<li>Se um requisito não for atendido plenamente, deve ser postergado para uma <i>baseline</i> futura ou negociar para cancelá-lo.</li>
+<li>Se uma CR estiver em aberto, deverá ser analisado qual o melhor encaminhamento, se deverá ser fechada, cancelada ou adiada.</li>
+</ol>
