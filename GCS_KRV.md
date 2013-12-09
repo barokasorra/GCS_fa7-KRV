@@ -2,33 +2,21 @@ GCS_FA7-KRV
 =================
 Plano de Gerenciamento de Configuração
 ======================================
-Versão 1.1
+Versão 1.6
 ------------------
 
-<<<<<<< HEAD
-=======
-_Um teste
-
->>>>>>> 57b6e37abf165022254d1dfd18a972fb26f8b758
-_[Observação: O template a seguir é fornecido para uso com o Rational Unified Process (RUP).  O texto exibido entre colchetes e em itálico foi incluído para orientar o autor e deve ser excluído antes da publicação do documento._
-
-_Este documento utiliza a formatação da linguagem [Markdown] (http://daringfireball.net/projects/markdown/). Você pode encontrar um guia de referência rápido [aqui] (https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).]_
 
 Histórico de Versões
 --------------------
-
-<<<<<<< HEAD
 |Data                |Versão       |Descrição               |Autor        |
 |:------------------:|:-----------:|:----------------------:|:-----------:|
-| 26/11/2013         | 1.0 | Versão inicial | Kalebe Barros|
-| 28/11/2013         | 1.1 | GCS | Kalebe Barros|
-| 29/11/2013         | 1.2 | Treinamentos | Kalebe Barros|
-=======
-|Data 25/11/2013       |Versão 1.0       |Descrição               |Autor Ricardo César |Email kuriozzu@hotmail.com         |
-|--------------------|-------------|------------------------|---------------|---------------|
-| 26/11/2013 | 1.0 | Versão inicial | Kalebe Barros| barokasorra@gmail.com |
->>>>>>> 57b6e37abf165022254d1dfd18a972fb26f8b758
-|_&lt;dd/mm/aaaa&gt;_|_&lt;1.1&gt;_|_&lt;Outra versão&gt;_  |_&lt;autor&gt;_|_&lt;autor&gt;_|
+| 25/11/2013         | 1.0 | Versão inicial | Ricardo César|
+| 26/11/2013         | 1.1 | Versão inicial | Kalebe Barros|
+| 28/11/2013         | 1.2 | GCS | Kalebe Barros|
+| 29/11/2013         | 1.3 | Treinamentos | Kalebe Barros|
+| 29/11/2013         | 1.4 | Introdução, Padrões | Ricardo César|
+| 07/12/2013         | 1.5 | PCG, Auditoria | Virgilio Ximenes|
+| 09/12/2013         | 1.6 | Formatação final | Kalebe Barros</br>Ricardo César</br>Virgilio Ximenes|
 
 
 
