@@ -12,56 +12,39 @@ _Este documento utiliza a formatação da linguagem [Markdown] (http://daringfir
 Histórico de Versões
 --------------------
 
-<<<<<<< HEAD
 |Data                |Versão       |Descrição               |Autor          |
 |--------------------|-------------|------------------------|---------------|
 |_&lt;dd/mm/aaaa&gt;_|_&lt;1.0&gt;_|_&lt;Versão inicial&gt;_|_&lt;autor&gt;_|
 |_&lt;dd/mm/aaaa&gt;_|_&lt;1.1&gt;_|_&lt;Outra versão&gt;_  |_&lt;autor&gt;_|
-=======
-|Data 25/11/2013       |Versão 1.0       |Descrição               |Autor Ricardo César |Email kuriozzu@hotmail.com         |
-|--------------------|-------------|------------------------|---------------|---------------|
-| 26/11/2013 | 1.0 | Versão inicial | Kalebe Barros| barokasorra@gmail.com |
-|_&lt;dd/mm/aaaa&gt;_|_&lt;1.1&gt;_|_&lt;Outra versão&gt;_  |_&lt;autor&gt;_|_&lt;autor&gt;_|
->>>>>>> 57b6e37abf165022254d1dfd18a972fb26f8b758
 
 
 
 1. Introdução
 ==============
 
+_[A introdução do Plano de Gerenciamento de Configuração  oferece uma visão geral de todo o documento. 
+Ela inclui a finalidade, o escopo, as definições, os acrônimos, as abreviações, as referências e uma visão geral deste
+Plano de Gerenciamento de Configuração.]_
 
 1.1 Finalidade
 ---------------
-<<<<<<< HEAD
 _[Especifique a finalidade deste Plano de Gerenciamento de Configuração.]_
-=======
-Documentar o Sistema KRV e controlar as mudanças nas versões do mesmo. Usar o GIT para fazer os commits, branchs e merges, facilitando assim o controle das versões e o Gerenciamento das configurações. Manter a equipe informada de todas as mudanças que foram feitas evitando assim problemas futuros.
-
->>>>>>> 57b6e37abf165022254d1dfd18a972fb26f8b758
 
 1.2 Escopo
 ----------
-Controlar as versões do sistema, fazer os commits, branchs e merges para melhor entendimento por parte dos analista de sistemas, gerentes de projeto e analista de requisitos.Manter clareza nas informações sobre as alterações feitas. Objetividade nas alterações das vesões do sistema . 
+_[Uma breve descrição do escopo deste Plano de Gerenciamento de Configuração; o modelo ao qual ele está associado e tudo o que é afetado ou influenciado por este documento.]_
 
 1.3 Definições, Acrônimos e Abreviações
 ---------------------------------------
-<<<<<<< HEAD
 _[Esta subseção apresenta as definições de todos os termos, acrônimos e abreviações necessários para a correta interpretação do Plano de Gerenciamento de Configuração.  Essas informações podem ser fornecidas mediante referência ao Glossário do projeto.]_
-=======
-|TERMO               |SIGNIFICADO       |
-|--------------------|-------------|
-| Baseline | Conjunto de itens de configuração que conseguiram um estado comprovado de estabilidade. |
-|SKRV |_Sistema Kalebe Ricardo Virgilio_|
-
->>>>>>> 57b6e37abf165022254d1dfd18a972fb26f8b758
 
 1.4 Referências
 ---------------
-Baseada na Análise de Requisitos realizada na elaboração do Sistema KRV em 28 de novembro de 2012 entitulada Análise de Requisitos de SKRV, feita pelo Analista de Requisitos Rodrigues Ximenes Barros.
+_[Esta subseção apresenta uma lista completa de todos os documentos mencionados no Plano de Gerenciamento de Configuração. Identifique os documentos por título, número de relatório (se aplicável), data e organização responsável pela publicação. Especifique as fontes a partir das quais as referências podem ser obtidas. Essas informações podem ser fornecidas por um anexo ou outro documento.]_
 
 1.5 Visão Geral
 ---------------
-Este documento foi criado para melhor orientar os envolvidos nas mudanças e versões do Sistema KRV, como Analista de Requisitos, Gerente de Projeto e Analistas de Sistemas.
+_[Esta subseção descreve o conteúdo restante do Plano de Gerenciamento de Configuração e explica como o documento está organizado.]_
 
 
 
@@ -124,13 +107,7 @@ _[Descreva a participação e os procedimentos para processar solicitações e a
 
 4. Padrões e Procedimentos
 ==========================
-* Toda mudança tem de ser comitada com mensagem de pelo menos 70 caracteres.
-* Cada equipe deve ter seu próprio branch.
-* As alterações só poderão ser enviadas para o master após a validação do cliente.
-* Toda mensagem de commit deve informar qual a _issue_ relacionadas.
-* O Merge deverá executado com o auxílio de todos os coordenadores das equipes.
-* Cada membro da equipe deve criar um _fork_ do branch da equipe.
-
+_[Descreva os padrões e procedimentos que devem ser seguidos no projeto. Crie subseções se achar necessário, para organizá-los melhor.]_
 
 
 
