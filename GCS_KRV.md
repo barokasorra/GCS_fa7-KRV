@@ -61,33 +61,28 @@ _[Esta subseção descreve o conteúdo restante do Plano de Gerenciamento de Con
 
 2.1 Organização, Responsabilidades e Interfaces
 ------------------------------------------------
-<center>
 
 |PAPÉIS        |EQUIPE    |RESPOSABILIDADE       |
 |:------------:|:-----------:|------------|
 |Gerente de Configuração| Virgilio Ximenes |Estabelecer Políticas de GC</br>   Escrever Plano de GC</br>  Configurar Ambiente de GC</br>  Criar Espaços de Trabalho de Integração</br>  Criar Baselines</br>  Promover Baselines|
 |CCM| Kalebe Barros  Ricardo César |Estabelecer Processo de Controle de Mudanças</br>  Revisar Solicitação de Mudança|
 |Desenvolvedor|Ricardo César</br >Virgilio Ximenes|Seguir os padrões e procedimentos definidos no Plano de Gerência de Configuração|
-<center><small> **Tabela 01 - Responsavéis e Resposabilidades**</small></center>
-</center>
 
-_[Descreva quem será o responsável pela execução das diversas atividades de Gerenciamento de Configuração (CM) descritas no Processo de CM.]_
 
 2.2 Ferramentas, Ambiente e Infra-estrutura
 -------------------------------------------
 ##### 2.2.1	Ferramentas a serem utilizadas para a gerência de configuração
-<center>
+
 
 |Ferramenta	     |Tipo	    |Descrição	    |Versão    |
 |----------------|----------|---------------|:----------:|
 |GIT	         |Controle de Versão|Sistema de controle de versão. </br>Localizado através do endereço: http://git-scm.com/|	1.8.4|
 |GitHub	         |Repositório	OnLine| Projeto on-line de hospedagem com Git. Inclui navegador de código-fonte, edição in-line, wikis.</br>Localizado através do Endereço: “https://github.com/” |***|
 |MdCharm|Editor MarkDown|É um editor de wiki. Atualmente ele suporta MarkDown e MultiMarkDown.</br>Localizado através do Endereço: “http://www.mdcharm.com/”|1.1.6|
-<center><small>**Tabela 02 - Ferramentas e Ambientes**</small></center>
-</center>
+
 
 ##### 2.2.2	Configuração do software – Ferramentas do ambiente de desenvolvimento
-<center>
+
 
 |Tipo   |Ferramenta	    |Versão    |
 |----------------|----------|:---------------:|
@@ -100,16 +95,6 @@ _[Descreva quem será o responsável pela execução das diversas atividades de 
 |Banco de Dados|Mysql	|6.0|
 |Maquina virtual|	VirtualBox |	4.3.2|
 |Comunicação|Telefone	/ Skype / Hangout|
-<center><small>**Tabela 03 - Configuração do Software**</small></center>
-</center>
-
-_[Descreva o ambiente de computação e as ferramentas de software a serem utilizadas para desempenhar as funções de CM em todo o ciclo de vida do projeto ou produto._
-_Descreva as ferramentas e os procedimentos necessários utilizados para o controle de versão dos itens de configuração gerados no ciclo de vida do projeto ou produto._
-_As questões envolvidas na configuração do ambiente de CM incluem:_
-* _tamanho previsto dos dados do produto_
-* _distribuição da equipe do produto_
-* _localização física dos servidores e clientes]_
- 
 
 
 3. O Programa de Gerenciamento de Configuração
@@ -256,15 +241,10 @@ _[Descreva os padrões e procedimentos que devem ser seguidos no projeto. Crie s
 
 5. Treinamento e Recursos
 =========================
-<center>
 
 |Treinamento|Objetivo|Público Alvo|
 |:---:|---|:---:|
 |Repositório|Ensinar como acessar o repositório através do _GIT_,</br> Como dar os comandos principais do repositório,  como incluir, atualizar e excluir itens dentro do repositório, e, </br>Como colocar os arquivos no repositório online _(GitHub)_.|Toda equipe|
-</center>
-
-_[Descreva as ferramentas de software, o pessoal e o treinamento necessários para implementar as atividades de CM especificadas.]_
-
 
 
 6. Auditorias de Configuração
