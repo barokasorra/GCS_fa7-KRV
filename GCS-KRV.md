@@ -1,9 +1,11 @@
-<Nome do Projeto>
+GCS_FA7-KRV
 =================
 Plano de Gerenciamento de Configuração
 ======================================
-Versão &lt;1.0&gt;
+Versão 1.0
 ------------------
+
+_Um teste
 
 _[Observação: O template a seguir é fornecido para uso com o Rational Unified Process (RUP).  O texto exibido entre colchetes e em itálico foi incluído para orientar o autor e deve ser excluído antes da publicação do documento._
 
@@ -12,17 +14,10 @@ _Este documento utiliza a formatação da linguagem [Markdown] (http://daringfir
 Histórico de Versões
 --------------------
 
-<<<<<<< HEAD
-|Data                |Versão       |Descrição               |Autor          |
-|--------------------|-------------|------------------------|---------------|
-|_&lt;dd/mm/aaaa&gt;_|_&lt;1.0&gt;_|_&lt;Versão inicial&gt;_|_&lt;autor&gt;_|
-|_&lt;dd/mm/aaaa&gt;_|_&lt;1.1&gt;_|_&lt;Outra versão&gt;_  |_&lt;autor&gt;_|
-=======
 |Data 25/11/2013       |Versão 1.0       |Descrição               |Autor Ricardo César |Email kuriozzu@hotmail.com         |
 |--------------------|-------------|------------------------|---------------|---------------|
 | 26/11/2013 | 1.0 | Versão inicial | Kalebe Barros| barokasorra@gmail.com |
 |_&lt;dd/mm/aaaa&gt;_|_&lt;1.1&gt;_|_&lt;Outra versão&gt;_  |_&lt;autor&gt;_|_&lt;autor&gt;_|
->>>>>>> 57b6e37abf165022254d1dfd18a972fb26f8b758
 
 
 
@@ -32,12 +27,8 @@ Histórico de Versões
 
 1.1 Finalidade
 ---------------
-<<<<<<< HEAD
-_[Especifique a finalidade deste Plano de Gerenciamento de Configuração.]_
-=======
 Documentar o Sistema KRV e controlar as mudanças nas versões do mesmo. Usar o GIT para fazer os commits, branchs e merges, facilitando assim o controle das versões e o Gerenciamento das configurações. Manter a equipe informada de todas as mudanças que foram feitas evitando assim problemas futuros.
 
->>>>>>> 57b6e37abf165022254d1dfd18a972fb26f8b758
 
 1.2 Escopo
 ----------
@@ -45,15 +36,11 @@ Controlar as versões do sistema, fazer os commits, branchs e merges para melhor
 
 1.3 Definições, Acrônimos e Abreviações
 ---------------------------------------
-<<<<<<< HEAD
-_[Esta subseção apresenta as definições de todos os termos, acrônimos e abreviações necessários para a correta interpretação do Plano de Gerenciamento de Configuração.  Essas informações podem ser fornecidas mediante referência ao Glossário do projeto.]_
-=======
 |TERMO               |SIGNIFICADO       |
 |--------------------|-------------|
 | Baseline | Conjunto de itens de configuração que conseguiram um estado comprovado de estabilidade. |
 |SKRV |_Sistema Kalebe Ricardo Virgilio_|
 
->>>>>>> 57b6e37abf165022254d1dfd18a972fb26f8b758
 
 1.4 Referências
 ---------------
