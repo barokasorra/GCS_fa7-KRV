@@ -16,7 +16,7 @@ Histórico de Versões
 | 29/11/2013         | 1.3 | Treinamentos | Kalebe Barros|
 | 29/11/2013         | 1.4 | Introdução, Padrões | Ricardo César|
 | 07/12/2013         | 1.5 | PCG, Auditoria | Virgilio Ximenes|
-| 09/12/2013         | 1.6 | Formatação final | Kalebe Barros</br>Ricardo César</br>Virgilio Ximenes|
+| 09/12/2013         | 1.6 | Formatação final | Kalebe Barros</br><br>Ricardo César</br><br>Virgilio Ximenes|
 
 
 
